@@ -1,0 +1,892 @@
+[
+  {
+    "section": "I. PHONETICS (Ngữ âm)",
+    "q": "1. Choose the word with the different underlined sound:",
+    "options": ["f<b>oo</b>d", "n<b>oo</b>dle", "sch<b>oo</b>l", "g<b>oo</b>d"],
+    "answer": 3,
+    "explain": "Đáp án D 'good' phát âm là /ʊ/. Các từ còn lại là /u:/."
+  },
+  {
+    "section": "I. PHONETICS (Ngữ âm)",
+    "q": "2. Choose the word with the different underlined sound:",
+    "options": ["b<b>ea</b>n", "p<b>ea</b>", "br<b>ea</b>d", "pl<b>ea</b>se"],
+    "answer": 2,
+    "explain": "Đáp án C 'bread' phát âm là /e/. Các từ còn lại là /i:/."
+  },
+  {
+    "section": "I. PHONETICS (Ngữ âm)",
+    "q": "3. Choose the word with the different underlined sound:",
+    "options": [
+      "b<b>a</b>nana",
+      "g<b>a</b>rlic",
+      "sug<b>a</b>r",
+      "tom<b>a</b>to"
+    ],
+    "answer": 2,
+    "explain": "Đáp án C 'sugar' âm 'a' là /ə/. Các từ còn lại là /ɑ:/."
+  },
+  {
+    "section": "I. PHONETICS (Ngữ âm)",
+    "q": "4. Choose the word with the different underlined sound:",
+    "options": [
+      "rel<b>a</b>tive",
+      "f<b>a</b>mily",
+      "s<b>a</b>lmon",
+      "<b>a</b>nimal"
+    ],
+    "answer": 0,
+    "explain": "Đáp án A 'relative' âm 'a' là /ə/. Các từ còn lại là /æ/."
+  },
+  {
+    "section": "I. PHONETICS (Ngữ âm)",
+    "q": "5. Choose the word with the different underlined sound:",
+    "options": [
+      "c<b>u</b>stom",
+      "st<b>u</b>dent",
+      "s<b>u</b>mmer",
+      "<b>u</b>mbrella"
+    ],
+    "answer": 1,
+    "explain": "Đáp án B 'student' phát âm là /ju:/. Các từ còn lại là /ʌ/."
+  },
+  {
+    "section": "I. PHONETICS (Ngữ âm)",
+    "q": "6. Choose the word with different stress:",
+    "options": ["lettuce (1)", "dessert (2)", "cereal (1)", "salad (1)"],
+    "answer": 1,
+    "explain": "Đáp án B trọng âm 2. Các từ còn lại trọng âm 1."
+  },
+  {
+    "section": "I. PHONETICS (Ngữ âm)",
+    "q": "7. Choose the word with different stress:",
+    "options": ["broccoli", "lemonade", "potato", "mineral"],
+    "answer": 2,
+    "explain": "Đáp án C 'potato' trọng âm 2. Broccoli(1), Mineral(1). Lemonade(3)."
+  },
+  {
+    "section": "I. PHONETICS (Ngữ âm)",
+    "q": "8. Choose the word with different stress:",
+    "options": ["delicious", "favourite", "important", "surprising"],
+    "answer": 1,
+    "explain": "Đáp án B 'favourite' trọng âm 1. Các từ còn lại trọng âm 2."
+  },
+  {
+    "section": "I. PHONETICS (Ngữ âm)",
+    "q": "9. Choose the word with different stress:",
+    "options": ["information", "avocado", "activity", "reservation"],
+    "answer": 2,
+    "explain": "Đáp án C 'activity' trọng âm 2. Các từ còn lại trọng âm 3."
+  },
+  {
+    "section": "I. PHONETICS (Ngữ âm)",
+    "q": "10. Choose the word with different stress:",
+    "options": ["waiter", "service", "mushroom", "canoe"],
+    "answer": 3,
+    "explain": "Đáp án D 'canoe' trọng âm 2. Các từ còn lại trọng âm 1."
+  },
+  {
+    "section": "II. VOCABULARY (Từ vựng cơ bản)",
+    "q": "1. Salmon is a kind of _______.",
+    "options": ["fruit", "meat", "vegetable", "fish"],
+    "answer": 3,
+    "explain": "Salmon (cá hồi) là cá."
+  },
+  {
+    "section": "II. VOCABULARY (Từ vựng cơ bản)",
+    "q": "2. We need some _______ to make a salad.",
+    "options": ["rice", "bread", "tomatoes", "noodles"],
+    "answer": 2,
+    "explain": "Cà chua (tomatoes) dùng làm salad."
+  },
+  {
+    "section": "II. VOCABULARY (Từ vựng cơ bản)",
+    "q": "3. I _______ breakfast with my family every morning.",
+    "options": ["drink", "have", "take", "do"],
+    "answer": 1,
+    "explain": "Have breakfast = Ăn sáng."
+  },
+  {
+    "section": "II. VOCABULARY (Từ vựng cơ bản)",
+    "q": "4. Have you got any _______? I am so thirsty.",
+    "options": ["mineral water", "strawberries", "broccoli", "garlic"],
+    "answer": 0,
+    "explain": "Thirsty (khát) -> cần Water (nước)."
+  },
+  {
+    "section": "II. VOCABULARY (Từ vựng cơ bản)",
+    "q": "5. I love to eat a fresh _______ for breakfast.",
+    "options": ["sandwich", "apple", "pasta", "cake"],
+    "answer": 1,
+    "explain": "Ăn một quả táo (apple) tươi."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "6. Do you have _______ spaghetti?",
+    "options": ["some", "any", "an", "a"],
+    "answer": 1,
+    "explain": "Câu hỏi nghi vấn thường dùng 'any'. Spaghetti là danh từ không đếm được."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "7. We eat _______ rice.",
+    "options": ["an", "a", "any", "a lot of"],
+    "answer": 3,
+    "explain": "'Rice' là danh từ không đếm được, dùng 'a lot of'."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "8. Would you like _______ to drink?",
+    "options": ["some", "something", "anything", "any"],
+    "answer": 1,
+    "explain": "Lời mời mọc dùng 'something' (cái gì đó để uống không?)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "9. I eat _______ avocado every day.",
+    "options": ["some", "a", "an", "any"],
+    "answer": 2,
+    "explain": "'Avocado' bắt đầu bằng nguyên âm -> dùng mạo từ 'an'."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "10. They don't have _______ black grapes here.",
+    "options": ["some", "a", "an", "any"],
+    "answer": 3,
+    "explain": "Câu phủ định (don't have) dùng 'any'."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "11. Does he play football _______ basketball?",
+    "options": ["as", "or", "but", "so"],
+    "answer": 1,
+    "explain": "Câu hỏi lựa chọn giữa A hoặc B -> dùng 'or'."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "12. My son likes apples _______ he doesn't like grapes.",
+    "options": ["and", "or", "but", "so"],
+    "answer": 2,
+    "explain": "Hai vế trái ngược nhau (thích... không thích) -> dùng 'but'."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "13. I need _______ pear and _______ orange.",
+    "options": ["a / an", "a / some", "an / a", "some / an"],
+    "answer": 0,
+    "explain": "Pear (phụ âm) -> a pear. Orange (nguyên âm) -> an orange."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "14. Does she work as _______ manager?",
+    "options": ["Ø", "a", "an", "some"],
+    "answer": 1,
+    "explain": "Chỉ nghề nghiệp (manager) -> dùng 'a'."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "15. Borough Market is world famous _______ it has visitors from many different countries.",
+    "options": ["and", "or", "but", "either"],
+    "answer": 0,
+    "explain": "Bổ sung thông tin: Nổi tiếng VÀ có nhiều du khách -> 'and'."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "16. What five kinds _______ food can't you live without?",
+    "options": ["in", "at", "of", "about"],
+    "answer": 2,
+    "explain": "Kinds of food (các loại thức ăn)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "17. When you feel unhappy _______ stressed, what type of food do you eat?",
+    "options": ["either", "or", "but", "so"],
+    "answer": 1,
+    "explain": "Liệt kê trạng thái (không vui HOẶC căng thẳng) -> dùng 'or'."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "18. He _______ early.",
+    "options": [
+      "gets up usually",
+      "gets usually up",
+      "usually get up",
+      "usually gets up"
+    ],
+    "answer": 3,
+    "explain": "Trạng từ chỉ tần suất (usually) đứng trước động từ thường (gets up)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "19. - How _______ do you exercise? - I go to the gym every day.",
+    "options": ["much", "usually", "long", "often"],
+    "answer": 3,
+    "explain": "Hỏi về mức độ thường xuyên (every day) -> How often."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "20. Nicola _______ on his computer for eight hours.",
+    "options": ["is sometimes", "sometimes is", "be sometimes", "sometimes be"],
+    "answer": 0,
+    "explain": "Trạng từ chỉ tần suất đứng sau động từ to be -> is sometimes."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "21. _______ do their homework?",
+    "options": [
+      "Does they always",
+      "Do they always",
+      "Are they always",
+      "They always"
+    ],
+    "answer": 1,
+    "explain": "Câu hỏi với 'They' dùng trợ động từ 'Do'. 'Always' đứng trước động từ chính."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "22. I _______ late for school.",
+    "options": ["no never", "never am", "never", "am never"],
+    "answer": 3,
+    "explain": "'Never' đứng sau động từ to be (am)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "23. He _______ have breakfast at home.",
+    "options": [
+      "does usually not",
+      "usually doesn't",
+      "doesn't usually",
+      "am never"
+    ],
+    "answer": 2,
+    "explain": "Vị trí trạng từ: Doesn't usually have."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "24. Why _______ go out with her?",
+    "options": [
+      "does often he",
+      "doesn't he often",
+      "do he often",
+      "isn't he often"
+    ],
+    "answer": 1,
+    "explain": "Câu hỏi phủ định: Why + doesn't + S + adv + V...?"
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "25. Stephan _______ ill.",
+    "options": [
+      "hardly ever",
+      "ever hardly",
+      "hardly ever is",
+      "is hardly ever"
+    ],
+    "answer": 3,
+    "explain": "Trạng từ đứng sau to be -> is hardly ever (hiếm khi bị ốm)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "26. I usually get up early and go running, but not _______ the weekend.",
+    "options": ["in", "on", "at", "by"],
+    "answer": 2,
+    "explain": "At the weekend (Anh-Anh) là đáp án phổ biến trong sách giáo khoa."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "27. He spends hours _______ social media every day.",
+    "options": ["in", "on", "at", "by"],
+    "answer": 1,
+    "explain": "On social media (trên mạng xã hội)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "28. They always have some cheese _______ home.",
+    "options": ["at", "on", "in", "with"],
+    "answer": 0,
+    "explain": "At home (ở nhà)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "29. I have a glass of milk and an apple _______ breakfast.",
+    "options": ["at", "in", "with", "for"],
+    "answer": 3,
+    "explain": "For breakfast (cho bữa sáng)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "30. Exercise and good food are important _______ you if you want to keep fit.",
+    "options": ["at", "on", "for", "with"],
+    "answer": 2,
+    "explain": "Important for you (quan trọng đối với bạn)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "31. We have a table _______ two for half past seven.",
+    "options": ["for", "with", "at", "in"],
+    "answer": 0,
+    "explain": "A table for two (bàn cho 2 người)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "32. Would you like _______ to eat?",
+    "options": ["a thing", "something", "anything", "things"],
+    "answer": 1,
+    "explain": "Lời mời lịch sự dùng 'something'."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "33. It's important for you to spend time _______ your family or your friends.",
+    "options": ["at", "in", "on", "with"],
+    "answer": 3,
+    "explain": "Spend time with someone (dành thời gian với ai)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "34. Are you ready _______?",
+    "options": ["to order", "ordering", "order", "to ordering"],
+    "answer": 0,
+    "explain": "Ready + to V (sẵn sàng làm gì)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "35. Can I have _______ bread, please?",
+    "options": ["any", "some", "a", "an"],
+    "answer": 1,
+    "explain": "Lời yêu cầu (Request) dùng 'some'."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "36. _______ we have some vegetable soup, please?",
+    "options": ["May", "Do", "Are", "Could"],
+    "answer": 3,
+    "explain": "'Could we have...' là lời yêu cầu lịch sự."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "37. I'm sorry. We don't have _______ chicken left.",
+    "options": ["a lot of", "some", "any", "a bit"],
+    "answer": 2,
+    "explain": "Câu phủ định dùng 'any'."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "38. There are many websites about how _______ a good photo of food.",
+    "options": ["taking", "take", "to take", "takes"],
+    "answer": 2,
+    "explain": "How to + V (cách để làm gì)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "39. He doesn't like _______ for people.",
+    "options": ["waiting", "wait", "to waiting", "waits"],
+    "answer": 0,
+    "explain": "Like + V-ing (sở thích)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "40. Would you like _______ football?",
+    "options": ["playing", "play", "to play", "plays"],
+    "answer": 2,
+    "explain": "Would like + to V."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "41. Do you ever take photos _______ your food?",
+    "options": ["of", "about", "on", "at"],
+    "answer": 0,
+    "explain": "Take photos of something (chụp ảnh cái gì)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "42. She loves _______ English.",
+    "options": ["studies", "study", "studying", "to study"],
+    "answer": 2,
+    "explain": "Love + V-ing (yêu thích làm gì)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "43. What do you like _______ on holiday?",
+    "options": ["do", "doing", "does", "to doing"],
+    "answer": 1,
+    "explain": "Like + V-ing."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "44. I hate _______ around the town center.",
+    "options": ["walk", "to walk", "walking", "walks"],
+    "answer": 2,
+    "explain": "Hate + V-ing."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "45. I enjoy _______ and I usually go on Sunday.",
+    "options": ["swim", "to swim", "swimming", "swimming"],
+    "answer": 2,
+    "explain": "Enjoy + V-ing (swimming)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "46. Oliver spends months _______ for the race.",
+    "options": ["prepares", "prepare", "preparing", "to prepare"],
+    "answer": 2,
+    "explain": "Spend time + V-ing."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "47. I often meet friends for coffee _______ we go shopping together.",
+    "options": ["either", "or", "but", "so"],
+    "answer": 1,
+    "explain": "Diễn tả sự lựa chọn: Hoặc đi cafe hoặc đi mua sắm (Or)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "48. He likes buying food _______ big shops.",
+    "options": ["in", "at", "on", "to"],
+    "answer": 1,
+    "explain": "At shops (Tại cửa hàng)."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "49. At the moment, I am happy _______ I am hungry. Time for dinner!",
+    "options": ["and", "or", "but", "so"],
+    "answer": 2,
+    "explain": "Hạnh phúc NHƯNG đói bụng (nghĩa tương phản) -> but."
+  },
+  {
+    "section": "III. GRAMMAR & STRUCTURE (Ngữ pháp)",
+    "q": "50. If you want _______ fit and healthy, eat much vegetable...",
+    "options": ["keep", "to keep", "keeping", "keeps"],
+    "answer": 1,
+    "explain": "Want + to V (muốn làm gì)."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "<b>Passage 1:</b> The internet has hundreds of websites with thousands of photos...<br><br>1. How many sites are named in the passage?",
+    "options": ["4", "5", "6", "hundreds"],
+    "answer": 0,
+    "explain": "Trong bài nhắc tên 4 trang: FoodSpotting, SnapDish, InstaFood, Instagram."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "2. Why is the food in one website called 'rainbow food'?",
+    "options": [
+      "The food is good when there is a rainbow.",
+      "The food is in a picture with a rainbow.",
+      "The food with different colours is on one plate.",
+      "The food plate has a picture of a rainbow."
+    ],
+    "answer": 2,
+    "explain": "Text: 'red, orange, yellow, green... all on one plate' (Thức ăn có nhiều màu khác nhau trên cùng một đĩa)."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "3. According to the passage, which statement is TRUE?",
+    "options": [
+      "To make a good photo of food, the food needs to be bright.",
+      "Colourful food tastes delicious.",
+      "To make a good photo of food, the food needs to be pink.",
+      "Some websites teach people how to cook good food."
+    ],
+    "answer": 0,
+    "explain": "Text: 'the most important thing is that the food is bright and colourful'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "<b>Passage 2:</b> Every year, the people of Okanogan County...<br><br>4. What do people of Okanogan County do to celebrate the end of summer?",
+    "options": [
+      "They have a horse fair.",
+      "They have a horse-riding race.",
+      "They run around the track.",
+      "They drive around the track."
+    ],
+    "answer": 0,
+    "explain": "Text: 'have a fair to celebrate the end of summer' (Tổ chức hội chợ)."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "5. Which statement is TRUE about the Indian Relay Race?",
+    "options": [
+      "People drive their cars in the race.",
+      "People use it to celebrate the beginning of summer.",
+      "People ride one horse in the race.",
+      "It is a traditional American Indian race."
+    ],
+    "answer": 3,
+    "explain": "Text: 'a tradition of American Indians'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "<b>Passage 3:</b> In Quebec, we have a big festival every winter...<br><br>6. What does the writer think of the Winter Carnival?",
+    "options": [
+      "He/she doesn't like it.",
+      "He/she doesn't care about it.",
+      "He/she likes it.",
+      "He/she hates it."
+    ],
+    "answer": 2,
+    "explain": "Text: 'It's really good fun' (Thực sự rất vui) -> Thích nó."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "7. Which activity does the writer like best in the Winter Carnival?",
+    "options": [
+      "The ice sculptures",
+      "The canoe race",
+      "The icy river",
+      "The evening parade"
+    ],
+    "answer": 3,
+    "explain": "Text: 'My favourite thing is the evening parade'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "<b>Passage 4:</b> My favourite healthy food is Moqueca...<br><br>8. What is the main ingredient of Moqueca?",
+    "options": ["pepper", "onion", "vegetables", "fish"],
+    "answer": 3,
+    "explain": "Text: 'It's a fish soup'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "<b>Passage 5:</b> My favourite healthy food is a fruit salad...<br><br>9. How many kinds of fruit does the writer usually use to make this fruit salad?",
+    "options": ["1", "2", "3", "4"],
+    "answer": 2,
+    "explain": "Text: 'strawberries, melon and pears' -> 3 loại."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "<b>Passage 2 (continued):</b> The race lasts 52 days...<br><br>10. According to the passage, which statement is FALSE?",
+    "options": [
+      "People run from 6 a.m. until midnight.",
+      "The race finishes before 52 days.",
+      "People rest for six hours each day.",
+      "People need to be strong and healthy to join the race."
+    ],
+    "answer": 1,
+    "explain": "Text: 'The race lasts 52 days'. Đáp án B nói 'kết thúc trước 52 ngày' là SAI."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "<b>Passage 1 (continued):</b> There are websites about how to take a good photo...<br><br>11. What does the passage say about pasta and noodles?",
+    "options": [
+      "They look bright in photos.",
+      "They look good in photos.",
+      "They are pink in photos.",
+      "They look colourful in photos."
+    ],
+    "answer": 1,
+    "explain": "Text: 'Pasta or noodles always look good'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "<b>Passage 3 (continued):</b><br><br>12. What are the ice sculptures often about?",
+    "options": ["winter", "people in the city", "animals", "cars"],
+    "answer": 2,
+    "explain": "Text: 'artists often make ice animals and buildings'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "13. What do people do in the canoe race?",
+    "options": [
+      "They make ice sculptures.",
+      "They play games.",
+      "They have a race on the icy river.",
+      "They watch a parade."
+    ],
+    "answer": 2,
+    "explain": "Text: 'They race on the icy river'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "<b>Passage 4 (continued):</b><br><br>14. Which of the following food isn't there in Moqueca?",
+    "options": ["fish", "peppers", "onion", "meat"],
+    "answer": 3,
+    "explain": "Bài đọc liệt kê: fish, red peppers, onions or other vegetables. Không có 'meat' (thịt)."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "<b>Passage 5 (continued):</b><br><br>15. What does the writer use in his fruit salad when there are no oranges?",
+    "options": ["lemonade", "strawberries", "melon", "pears"],
+    "answer": 0,
+    "explain": "Text: 'when I don't have any [oranges], I add a little bit of lemonade'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "<b>Passage 2 (continued):</b><br><br>16. Why do runners need to visit the doctor before they join the race?",
+    "options": [
+      "to wash and sleep",
+      "to compete with each other",
+      "to be strong and healthy",
+      "to check their health"
+    ],
+    "answer": 3,
+    "explain": "Text: 'enter to check they are strong and healthy'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "<b>Passage 6:</b> My name is Darcey and I'm from Australia...<br><br>17. What nationality is Darcey?",
+    "options": ["Australian", "Asian", "Singaporean", "Japanese"],
+    "answer": 0,
+    "explain": "Text: 'I'm from Australia'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "18. When does the author have lessons at university?",
+    "options": [
+      "on Wednesday and Friday",
+      "on Monday, Tuesday and Wednesday",
+      "on Monday, Tuesday and Thursday",
+      "on Tuesday, Wednesday and Thursday"
+    ],
+    "answer": 2,
+    "explain": "Text: 'on Monday morning, Tuesday morning and Thursday morning'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "19. What does the author do when he/she doesn't have lessons at university?",
+    "options": [
+      "He/she studies at home or in the library.",
+      "He/she goes to classes.",
+      "He/she gets up early.",
+      "He/she doesn't study."
+    ],
+    "answer": 0,
+    "explain": "Text: 'On Wednesday and Friday... study at home... or I go to the university library'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "20. Why does the author check his messages and emails every day?",
+    "options": [
+      "to see pictures of his/her sister's and friends' lives",
+      "to send pictures of his work to friends",
+      "to get information about his homework",
+      "to watch online videos about Australia"
+    ],
+    "answer": 0,
+    "explain": "Text: 'like sending me some pictures of their lives'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "21. Darcey wants to work in _______.",
+    "options": ["Australia", "the UK", "Japan", "Australia"],
+    "answer": 2,
+    "explain": "Text: 'maybe in Singapore or Japan'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "22. She doesn't have any classes on _______.",
+    "options": ["Monday", "Tuesday", "Thursday", "Friday"],
+    "answer": 3,
+    "explain": "Text: 'On Wednesday and Friday, I get up later and study...' (Tức là không có lớp)."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "23. Darcey goes to the library when her friends _______.",
+    "options": [
+      "have a party",
+      "have classes",
+      "get up late",
+      "play video games"
+    ],
+    "answer": 3,
+    "explain": "Text: 'flatmates play music or video games'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "24. At the weekend, Darcey chats to her _______.",
+    "options": ["parents", "sister", "friends", "flatmates"],
+    "answer": 0,
+    "explain": "Text: 'my parents and I always talk online on Saturday or Sunday'."
+  },
+  {
+    "section": "IV. READING (Đọc hiểu)",
+    "q": "25. Darcey and her friends don't usually eat at restaurants because _______.",
+    "options": [
+      "they like going for coffee",
+      "they like eating pasta",
+      "they love cooking together",
+      "they are not cheap"
+    ],
+    "answer": 3,
+    "explain": "Text: 'don't go out to restaurants because they are expensive' (đắt đỏ = not cheap)."
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "1. 'Good evening, do you have a reservation?' - '_______'",
+    "options": [
+      "Yes, of course.",
+      "Yes, we have a table for two for half past seven.",
+      "No, I'd like to have a chicken.",
+      "Yes, please."
+    ],
+    "answer": 1,
+    "explain": "Trả lời xác nhận đã đặt bàn."
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "2. 'Are you ready to order?' - '_______'",
+    "options": [
+      "Yes. For a starter, can we have a salad, please?",
+      "Yes. Can we have the bill, please?",
+      "Yes. A table for two, please.",
+      "No, we don't like fish."
+    ],
+    "answer": 0,
+    "explain": "Đã sẵn sàng gọi món -> Gọi món khai vị (starter)."
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "3. 'Would you like something to drink?' - '_______'",
+    "options": [
+      "Can I have chicken soup, please?",
+      "I don't like chocolate cake.",
+      "Coke is not good for health.",
+      "Could I have some sparkling water, please?"
+    ],
+    "answer": 3,
+    "explain": "Hỏi về đồ uống -> Gọi nước có ga (sparkling water)."
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "4. 'What would you like for the main course?' - '_______'",
+    "options": [
+      "I'd like the chicken, please.",
+      "Yes, some mineral, please.",
+      "No, thanks. Could we have the bill, please?",
+      "Yes, of course."
+    ],
+    "answer": 0,
+    "explain": "Hỏi món chính -> Gọi món gà."
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "5. '_______' - 'Can I have some green peas, please?'",
+    "options": [
+      "What would you like for dessert?",
+      "What vegetables would you like?",
+      "What would you like to drink?",
+      "Do you like green peas?"
+    ],
+    "answer": 1,
+    "explain": "Câu trả lời là gọi đậu xanh (một loại rau) -> Câu hỏi là 'Bạn muốn gọi rau gì?'"
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "6. 'Good evening. How can I help you?' - '_______'",
+    "options": [
+      "How are you?",
+      "We don't drink beer.",
+      "We need a table for two.",
+      "Nice meeting you."
+    ],
+    "answer": 2,
+    "explain": "Nhân viên chào khách -> Khách trả lời nhu cầu (Cần bàn cho 2 người)."
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "7. 'How often do you check your email?' - '_______'",
+    "options": [
+      "I like checking email.",
+      "I like writing email.",
+      "Email is fast and convenient.",
+      "Twice a day."
+    ],
+    "answer": 3,
+    "explain": "Hỏi tần suất (How often) -> Trả lời số lần (Twice a day)."
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "8. 'What types of fruit do you like?' - '_______'",
+    "options": [
+      "I really like apples.",
+      "I eat an apple every day.",
+      "Can I have one more apple, please?",
+      "Is an onion a type of fruit?"
+    ],
+    "answer": 0,
+    "explain": "Hỏi loại quả yêu thích -> Trả lời 'Rất thích táo'."
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "9. 'Do you spend a lot of time online?' - '_______'",
+    "options": [
+      "Yes, I'm always online.",
+      "No, I don't like talking online.",
+      "Yes, I am. I'm a blogger.",
+      "No, time is very important."
+    ],
+    "answer": 0,
+    "explain": "Hỏi có dành nhiều thời gian online không -> 'Có, tôi online suốt'."
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "10. 'Do you like watching TV?' - '_______'",
+    "options": [
+      "I'd like to have a large screen TV, please.",
+      "Sometimes. It depends on the programme.",
+      "I don't like listening to music.",
+      "Twice a day."
+    ],
+    "answer": 1,
+    "explain": "Hỏi sở thích xem TV -> 'Thỉnh thoảng, tùy thuộc vào chương trình'."
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "11. Customer: 'Could we have some vegetable soup, please?' - Waiter: '_______'",
+    "options": [
+      "Yes, certainly.",
+      "Vegetable soup is cold.",
+      "I don't like vegetable soup.",
+      "Yes, you have vegetable soup."
+    ],
+    "answer": 0,
+    "explain": "Khách yêu cầu món -> Nhân viên đáp lại lịch sự 'Vâng, chắc chắn rồi'."
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "12. What do you say to order some fish in a restaurant?",
+    "options": [
+      "Fish is good for health.",
+      "I'd like some fish, please.",
+      "Do you like fish?",
+      "Would you like some fish?"
+    ],
+    "answer": 1,
+    "explain": "Cách gọi món: 'I'd like...' (Tôi muốn...)"
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "13. What does a waiter say to ask a customer about his order for a drink?",
+    "options": [
+      "What's your favourite drink?",
+      "What do you usually drink in the evening?",
+      "What do you drink with your meal?",
+      "What would you like to drink?"
+    ],
+    "answer": 3,
+    "explain": "Câu hỏi lịch sự của bồi bàn: 'Bạn muốn uống gì?'"
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "14. 'How often do you have English lessons?' - '_______'",
+    "options": [
+      "I like English.",
+      "English is good for your future job.",
+      "I learn English twice a week.",
+      "English is an international language."
+    ],
+    "answer": 2,
+    "explain": "Hỏi tần suất -> Trả lời '2 lần một tuần' (twice a week)."
+  },
+  {
+    "section": "V. SOCIAL ENGLISH (Giao tiếp)",
+    "q": "15. 'What does Jane do to relax?' - '_______'",
+    "options": [
+      "She works in a bank.",
+      "She is a university student.",
+      "She likes playing games.",
+      "She loves blue."
+    ],
+    "answer": 2,
+    "explain": "Hỏi làm gì để thư giãn -> Trả lời sở thích 'Chơi game'."
+  }
+]
