@@ -1,0 +1,489 @@
+html_content = """
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập Tiếng Anh Unit 2 Review</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .quiz-container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .question-block {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        .question-text {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #2980b9;
+        }
+        .options {
+            list-style-type: none;
+            padding: 0;
+        }
+        .options li {
+            margin-bottom: 8px;
+        }
+        .option-btn {
+            display: block;
+            width: 100%;
+            text-align: left;
+            padding: 10px 15px;
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 16px;
+        }
+        .option-btn:hover {
+            background-color: #f0f8ff;
+            border-color: #3498db;
+        }
+        .option-btn.selected {
+            background-color: #3498db;
+            color: white;
+            border-color: #3498db;
+        }
+        .option-btn.correct {
+            background-color: #27ae60 !important;
+            color: white !important;
+            border-color: #27ae60 !important;
+        }
+        .option-btn.incorrect {
+            background-color: #e74c3c !important;
+            color: white !important;
+            border-color: #e74c3c !important;
+        }
+        .feedback {
+            margin-top: 10px;
+            font-size: 0.9em;
+            display: none;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .feedback.show {
+            display: block;
+        }
+        .score-board {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #2c3e50;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            font-weight: bold;
+            display: none;
+        }
+        .section-title {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1>Unit 2 Review: Food & Daily Life</h1>
+        <p style="text-align: center; margin-bottom: 30px;">Chọn đáp án đúng nhất cho mỗi câu hỏi.</p>
+        
+        <div id="quiz-content"></div>
+    </div>
+
+    <div id="score-board" class="score-board">
+        Điểm: <span id="score">0</span> / <span id="total">0</span>
+    </div>
+
+    <script>
+        const quizData = [
+            // PHONETICS - PRONUNCIATION
+            {
+                section: "I. PHONETICS - A. Pronunciation",
+                q: "1. Choose the word with the different underlined sound:",
+                options: ["f<b>oo</b>d", "n<b>oo</b>dle", "sch<b>oo</b>l", "g<b>oo</b>d"],
+                answer: 3,
+                explain: "Đáp án D 'good' phát âm là /ʊ/. Các từ còn lại là /u:/."
+            },
+            {
+                q: "2. Choose the word with the different underlined sound:",
+                options: ["b<b>ea</b>n", "p<b>ea</b>", "br<b>ea</b>d", "pl<b>ea</b>se"],
+                answer: 2,
+                explain: "Đáp án C 'bread' phát âm là /e/. Các từ còn lại là /i:/."
+            },
+            {
+                q: "3. Choose the word with the different underlined sound:",
+                options: ["b<b>a</b>nana", "g<b>a</b>rlic", "sug<b>a</b>r", "tom<b>a</b>to"],
+                answer: 2,
+                explain: "Đáp án C 'sugar' âm 'a' là /ə/. Các từ còn lại là /ɑ:/."
+            },
+            {
+                q: "4. Choose the word with the different underlined sound:",
+                options: ["rel<b>a</b>tive", "f<b>a</b>mily", "s<b>a</b>lmon", "<b>a</b>nimal"],
+                answer: 0,
+                explain: "Đáp án A 'relative' âm 'a' là /ə/. Các từ còn lại là /æ/."
+            },
+            {
+                q: "5. Choose the word with the different underlined sound:",
+                options: ["c<b>u</b>stom", "st<b>u</b>dent", "s<b>u</b>mmer", "<b>u</b>mbrella"],
+                answer: 1,
+                explain: "Đáp án B 'student' phát âm là /ju:/. Các từ còn lại là /ʌ/."
+            },
+            
+            // PHONETICS - STRESS
+            {
+                section: "I. PHONETICS - B. Stress",
+                q: "6. Choose the word with different stress:",
+                options: ["lettuce (1)", "dessert (2)", "cereal (1)", "salad (1)"],
+                answer: 1,
+                explain: "Đáp án B trọng âm 2. Các từ còn lại trọng âm 1."
+            },
+            {
+                q: "7. Choose the word with different stress:",
+                options: ["broccoli", "lemonade", "potato", "mineral"],
+                answer: 2,
+                explain: "Đáp án C 'potato' trọng âm 2. Broccoli(1), Mineral(1). Lemonade(3)."
+            },
+            {
+                q: "8. Choose the word with different stress:",
+                options: ["delicious", "favourite", "important", "surprising"],
+                answer: 1,
+                explain: "Đáp án B 'favourite' trọng âm 1. Các từ còn lại trọng âm 2."
+            },
+            {
+                q: "9. Choose the word with different stress:",
+                options: ["information", "avocado", "activity", "reservation"],
+                answer: 2,
+                explain: "Đáp án C 'activity' trọng âm 2. Các từ còn lại trọng âm 3."
+            },
+            {
+                q: "10. Choose the word with different stress:",
+                options: ["waiter", "service", "mushroom", "canoe"],
+                answer: 3,
+                explain: "Đáp án D 'canoe' trọng âm 2. Các từ còn lại trọng âm 1."
+            },
+
+            // VOCABULARY
+            {
+                section: "II. VOCABULARY & GRAMMAR",
+                q: "1. Salmon is a kind of _______.",
+                options: ["fruit", "meat", "vegetable", "fish"],
+                answer: 3,
+                explain: "Salmon (cá hồi) là một loại cá."
+            },
+            {
+                q: "2. We need some _______ to make a salad.",
+                options: ["rice", "bread", "tomatoes", "noodles"],
+                answer: 2,
+                explain: "Cần cà chua (tomatoes) để làm salad."
+            },
+            {
+                q: "3. I _______ breakfast with my family every morning.",
+                options: ["drink", "have", "take", "do"],
+                answer: 1,
+                explain: "Cụm từ 'have breakfast' (ăn sáng)."
+            },
+            {
+                q: "4. Have you got any _______? I am so thirsty.",
+                options: ["mineral water", "strawberries", "broccoli", "garlic"],
+                answer: 0,
+                explain: "Thirsty (khát) nên cần water (nước)."
+            },
+            {
+                q: "5. I love to eat a fresh _______ for breakfast.",
+                options: ["sandwich", "apple", "pasta", "cake"],
+                answer: 1,
+                explain: "Ăn một quả táo (apple) tươi."
+            },
+            {
+                q: "6. He ordered an _______ for dessert at the restaurant.",
+                options: ["pizza", "burger", "ice cream", "soup"],
+                answer: 2,
+                explain: "Dùng mạo từ 'an' trước nguyên âm -> ice cream."
+            },
+            {
+                q: "7. _______ is a traditional Italian kind of pasta.",
+                options: ["Cereal", "Spaghetti", "Muffins", "Fries"],
+                answer: 1,
+                explain: "Spaghetti là món mỳ Ý truyền thống."
+            },
+            {
+                q: "8. My favorite fruit is a _______ because it is sweet.",
+                options: ["banana", "carrot", "broccoli", "lettuce"],
+                answer: 0,
+                explain: "Banana là trái cây. Các từ còn lại là rau củ."
+            },
+            {
+                q: "9. For lunch, I had a _______ with cheese and ham.",
+                options: ["salad", "soup", "sandwich", "steak"],
+                answer: 2,
+                explain: "Sandwich kẹp phô mai và thịt nguội."
+            },
+            {
+                q: "10. We need to buy some _______ for the barbecue tonight.",
+                options: ["sausages", "purses", "files", "wallets"],
+                answer: 0,
+                explain: "Mua xúc xích (sausages) cho tiệc nướng."
+            },
+            {
+                q: "11. Can you pass me the _______ for my coffee?",
+                options: ["sauce", "ketchup", "mustard", "sugar"],
+                answer: 3,
+                explain: "Đường (sugar) dùng cho cà phê."
+            },
+            {
+                q: "12. We usually eat _______ with butter for breakfast.",
+                options: ["pizza", "meat", "toast", "pie"],
+                answer: 2,
+                explain: "Toast (bánh mì nướng) ăn với bơ."
+            },
+            {
+                q: "13. Do you like to drink _______ or juice with your meal?",
+                options: ["soda", "bread", "rice", "pasta"],
+                answer: 0,
+                explain: "Soda là đồ uống. Các từ còn lại là đồ ăn."
+            },
+            {
+                q: "14. My sister loves to bake _______ on weekends.",
+                options: ["fish", "cakes", "salads", "steaks"],
+                answer: 1,
+                explain: "Bake cakes (nướng bánh)."
+            },
+            {
+                q: "15. I need to buy some _______ to make a fruit salad.",
+                options: ["muffins", "cookies", "steaks", "strawberries"],
+                answer: 3,
+                explain: "Strawberries (dâu tây) dùng làm salad hoa quả."
+            },
+            {
+                q: "16. We had _______ with cheese and ham for breakfast.",
+                options: ["cookies", "apple pies", "burgers", "pancakes"],
+                answer: 3,
+                explain: "Pancakes thường ăn sáng. Burgers là bữa chính."
+            },
+            {
+                q: "17. She prefers to eat _______ with her dinner.",
+                options: ["rice", "fruit juice", "soda", "lemonade"],
+                answer: 0,
+                explain: "Eat rice (ăn cơm). Các từ còn lại là uống."
+            },
+            {
+                q: "18. He likes his coffee with _______ and sugar.",
+                options: ["tea", "water", "soda", "milk"],
+                answer: 3,
+                explain: "Cà phê sữa đá/nóng -> Milk."
+            },
+            {
+                q: "19. They always make some _______ to take with when they go on a picnic.",
+                options: ["sandwiches", "fruit", "apples", "oranges"],
+                answer: 0,
+                explain: "Make sandwiches (làm bánh mì kẹp) mang đi dã ngoại."
+            },
+            {
+                q: "20. _______ is a green vegetable that is good for your health.",
+                options: ["Lemon", "Onion", "Butter", "Broccoli"],
+                answer: 3,
+                explain: "Broccoli (súp lơ xanh) là rau màu xanh."
+            },
+            {
+                q: "21. After I _______, I get dressed, and I go to work.",
+                options: ["catch the bus", "have a shower", "finish work", "go shopping"],
+                answer: 1,
+                explain: "Tắm (have a shower) xong rồi mặc quần áo."
+            },
+            {
+                q: "22. We _______ in the evening if there is a good series of film on.",
+                options: ["watch TV", "eat breakfast", "start work", "sleep"],
+                answer: 0,
+                explain: "Xem TV (watch TV) vào buổi tối."
+            },
+            {
+                q: "23. My son usually gets up early and _______ running in the park.",
+                options: ["does", "plays", "takes", "goes"],
+                answer: 3,
+                explain: "Cấu trúc 'go running' (đi chạy bộ)."
+            },
+            {
+                q: "24. Mark _______ at the desk in his bedroom after school.",
+                options: ["gets up", "does his homework", "finishes work", "goes shopping"],
+                answer: 1,
+                explain: "Làm bài tập về nhà (does his homework) tại bàn học."
+            },
+            {
+                q: "25. Laura sometimes _______ at a café on her way to work.",
+                options: ["gets up", "has a shower", "has breakfast", "goes running"],
+                answer: 2,
+                explain: "Ăn sáng (has breakfast) tại quán cà phê."
+            },
+            {
+                q: "26. As soon as I _______, I get out of bed.",
+                options: ["wake up", "have a shower", "have dinner", "brush my teeth"],
+                answer: 0,
+                explain: "Thức giấc (wake up) thì ra khỏi giường."
+            },
+            {
+                q: "27. My father usually _______ by car, but sometimes he catches the bus.",
+                options: ["starts work", "goes to work", "has lunch", "finishes work"],
+                answer: 1,
+                explain: "Đi làm (goes to work) bằng ô tô."
+            },
+            {
+                q: "28. Which of the following things do you need to 'go online'?",
+                options: ["a bicycle", "a hat", "an apple", "a computer"],
+                answer: 3,
+                explain: "Cần máy tính (computer) để lên mạng."
+            },
+            {
+                q: "29. Which of the following things do you need when you 'take a shower'?",
+                options: ["shoes", "water", "flowers", "a pen"],
+                answer: 1,
+                explain: "Cần nước (water) để tắm."
+            },
+            {
+                q: "30. There are many good reasons to _______ time online.",
+                options: ["spend", "take", "make", "save"],
+                answer: 0,
+                explain: "Spend time (dành thời gian)."
+            },
+            {
+                q: "31. You can _______ new people at the gym or at parties.",
+                options: ["watch", "see", "meet", "look"],
+                answer: 2,
+                explain: "Gặp gỡ (meet) người mới."
+            },
+            {
+                q: "32. The first thing I do when I turn on my laptop is checking _______.",
+                options: ["friends", "emails", "letters", "passwords"],
+                answer: 1,
+                explain: "Kiểm tra email."
+            },
+            {
+                q: "33. 'Why do many people do exercise?' - 'Because they want to _______.'",
+                options: ["go to sleep", "buy some food", "read more books", "stay healthy"],
+                answer: 3,
+                explain: "Tập thể dục để sống khỏe (stay healthy)."
+            },
+            {
+                q: "34. I don't drink _______ because they usually have a lot of sugar.",
+                options: ["mineral water", "vegetables", "soft drinks", "fruit juice"],
+                answer: 2,
+                explain: "Nước ngọt (soft drinks) chứa nhiều đường."
+            },
+            {
+                q: "35. Dan often eats _______. It is his favourite meat.",
+                options: ["smoked salmon", "ice cream", "apple pie", "roast lamb"],
+                answer: 3,
+                explain: "Thịt cừu nướng (roast lamb) là một loại thịt."
+            }
+        ];
+
+        const container = document.getElementById('quiz-content');
+        const scoreSpan = document.getElementById('score');
+        const totalSpan = document.getElementById('total');
+        const scoreBoard = document.getElementById('score-board');
+        let currentScore = 0;
+
+        totalSpan.textContent = quizData.length;
+
+        let currentSection = "";
+
+        quizData.forEach((item, index) => {
+            // Add Section Header if new section
+            if (item.section && item.section !== currentSection) {
+                currentSection = item.section;
+                const sectionTitle = document.createElement('div');
+                sectionTitle.className = 'section-title';
+                sectionTitle.textContent = currentSection;
+                container.appendChild(sectionTitle);
+            }
+
+            const questionBlock = document.createElement('div');
+            questionBlock.className = 'question-block';
+
+            // Question Text
+            const qText = document.createElement('div');
+            qText.className = 'question-text';
+            qText.innerHTML = item.q;
+            questionBlock.appendChild(qText);
+
+            // Options List
+            const ul = document.createElement('ul');
+            ul.className = 'options';
+
+            // Feedback div
+            const feedback = document.createElement('div');
+            feedback.className = 'feedback';
+            
+            let answered = false;
+
+            item.options.forEach((opt, optIndex) => {
+                const li = document.createElement('li');
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                btn.innerHTML = opt; // Using innerHTML to render <b> tags
+
+                btn.onclick = () => {
+                    if (answered) return;
+                    answered = true;
+
+                    // Update Score Board visibility
+                    scoreBoard.style.display = 'block';
+
+                    if (optIndex === item.answer) {
+                        btn.classList.add('correct');
+                        currentScore++;
+                        feedback.style.backgroundColor = '#d4edda';
+                        feedback.style.color = '#155724';
+                        feedback.innerHTML = "✅ <b>Chính xác!</b> " + item.explain;
+                    } else {
+                        btn.classList.add('incorrect');
+                        // Highlight correct answer
+                        ul.children[item.answer].children[0].classList.add('correct');
+                        feedback.style.backgroundColor = '#f8d7da';
+                        feedback.style.color = '#721c24';
+                        feedback.innerHTML = "❌ <b>Sai rồi!</b> " + item.explain;
+                    }
+                    
+                    scoreSpan.textContent = currentScore;
+                    feedback.classList.add('show');
+                };
+
+                li.appendChild(btn);
+                ul.appendChild(li);
+            });
+
+            questionBlock.appendChild(ul);
+            questionBlock.appendChild(feedback);
+            container.appendChild(questionBlock);
+        });
+    </script>
+</body>
+</html>
+"""
+
+with open('bai_tap_tieng_anh_unit_2.html', 'w', encoding='utf-8') as f:
+    f.write(html_content)
